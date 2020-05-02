@@ -1,0 +1,43 @@
+
+.swatch-container {
+  display: inline-flex;
+  border: 0.7px solid #BFBCBB;
+  border-radius: 4px;
+  width: calc(50% - 8px - 1.4px - 12px);
+  margin: 6px;
+  padding: 4px;
+  .color-swatch {
+    height: 50px;
+    width: 50px;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+
+  .color-name{
+    width: 100%;
+    p{
+      text-align: center;
+    }
+  }
+
+  .button {
+    height: 30px;
+    width: 30px;
+    margin-left: 50px;
+    border-radius: 100px;
+    cursor: pointer;
+  }
+
+  .popover {
+    position: absolute;
+    z-index: 2;
+  }
+
+  .cover {
+    position: fixed;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
+  }
+}

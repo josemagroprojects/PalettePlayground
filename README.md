@@ -1,2 +1,0 @@
-# PalettePlayground
-Created with CodeSandbox

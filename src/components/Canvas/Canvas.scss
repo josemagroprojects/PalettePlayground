@@ -1,0 +1,20 @@
+.canvas-container {
+  display: flex;
+
+  #part-one {
+    background-color: #231f20;
+  }
+  #part-two {
+    background-color: #e81e31;
+  }
+  #part-three {
+    background-color: #0876bc;
+  }
+  #part-four {
+    background-color: #ffcb0a;
+  }
+
+  .color {
+    width: 50%;
+  }
+}
